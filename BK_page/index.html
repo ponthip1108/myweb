@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yourname Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(159, 218, 223);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: rgb(207, 247, 227);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  text-align: center;
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: rgb(253, 175, 211);
+  height:100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(243, 186, 252);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+       Ponthip Portfolio
+    </header>
+    <section>
+      <nav>
+          <a href="index.html"> New Portfolio</a><br>
+          <a href="index1.html">Old Portfolio</a><br>
+          <a href="index2.html">ชิ้นงาน</a><br>
+          <a href="ตาราง.html">ตารางเรียน</a><br>
+      </nav>
+      <article>
+            <h2 style="color: white;">ข้อมูลนักเรียน</h2>
+            <h2 style="color: white;">__ __ __ __ __ __ __ __ __ __ __  </h2>
+            <img src="images/WIN_20211117_15_37_08_Pro.jpg"width="60%" hight="20%">
+            <h1 style="color: white;">__ __ __ __ __ __ __ __ __ __ __  </h1>
+            <h2 style="color: white;">เด็กหญิงพรทิพย์ ศรีวิจิตร</h2>
+            <h1 style="color: white;">__ __ __ __ __ __ __ __ __ __ __  </h1>
+            <h4 style="color: white;">รายวิชาที่เรียน</h4>
+            <h5 style="color: white;">__ __ __ __ __ __ __ __ __ __ __ __</h5>
+            <h4 style="color: white;">อ21102 ภาษาอังกฤษ</h4>
+            <h4 style="color: white;">ว20202 เริ่มต้นกับวิทยาศาสตร์</h4>
+            <h4 style="color: white;">ญ20202 ภาษาญี่ปุ่น</h4>
+            <h4 style="color: white;">ว21103 เทคโนโลยีและวิทยาการคำนวณ 1</h4>
+            <h4 style="color: white;">ข้อมูลติดต่อ</h4>
+            <p style="color: white;">__ __ __ __ __ __ __ __ __ __ __ __</p>
+            <h4 style="color: white;">มือถือ : 097-963-7662</h4>
+            <h4 style="color: white;">อีเมล์ : ponthip.sri@pccpl.ac.th</h4>
+            <h4 style="color: white;">ที่อยุ่</h4>
+            <p style="color: white;">__ __ __ __ __ __ __ __ __ __ __ __ </p>
+            <h4 style="color: white;">62 ม.1 บ้านหน้าพระธาตุ</h4>
+            <h4 style="color: white;">ต.ในเมือง อ.พิชัย จ.อุตรดิตถ์ 53120 </h4>
+      </article>
+    </section>
+    <footer>
+       KITTY
+    </footer>
+</body>
+</html>
+
+

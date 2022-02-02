@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML forms</title>
+</head>
+
+<body>
+
+    <form>
+        <h3>ชื่อ-สกุล</้3>
+        <input type="text" id="Name:" name="Name:"><br>
+        <h3>ที่อยู่</h3>
+        <input type="text" id="lname" name="lname">
+        <h3>เพศ</h3>
+        <input type="radio" id="หญิง" name="fav_language" value="หญิง">
+        <label for="หญิง">หญิง</label>
+        <input type="radio" id="ชาย" name="fav_language" value="ชาย">
+        <label for="ชาย">ชาย</label>
+        <h3>ในวันหนึ่งคุณใช้อุปกรณ์อะไรมากที่สุด</h3>
+        <input type="radio" id="PC" name="fav_language" value="PC">
+        <label for="PC">PC</label>
+        <input type="radio" id="Notebook" name="fav_language" value="Notebook">
+        <label for="Notebook">Notebook</label>
+        <input type="radio" id="Netbook" name="fav_language" value="Netbook">
+        <label for="Netbook">Netbook</label>
+        <input type="radio" id="Table" name="fav_language" value="Table">
+        <label for="Table">Table</label>
+        <input type="radio" id="SmartPhone" name="fav_language" value="SmartPhone">
+        <label for="SmartPhone">SmartPhone</label>
+        <h3>E-male</h3><input type="text" id="E-male" name="E-male">
+        <h3>Usename</h3><input type="text" id="Usename" name="Usename">
+        <h3>Password</h3><input type="text" id="Password" name="Password">
+        <h3>Conform Password</h3><input type="text" id="Password" name="Password"><br>
+        <input type="reset" value="reset"><input type="submit" value="Submit">
+  
+    </form>
+
+</body>
+
+</html>
